@@ -1,0 +1,99 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  font-family: "Gotham", sans-serif;
+}
+
+.navBar {
+  display: inline-block;
+  font-family: Gothem;
+  font-style: normal;
+  padding-top: 110px;
+  margin-left: 130px;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  background: none;
+  border: none;
+
+  cursor: pointer;
+}
+.topMiddle {
+  float: inline-start;
+  margin-left: 280px;
+}
+.topRight {
+  float: right;
+  margin-right: 20px;
+  float: inline-end;
+}
+.btn {
+  border: none;
+  background: transparent;
+  background-color: inherit;
+  border-radius: 10px;
+  padding: 14px 28px;
+  font-size: 14px;
+
+  color: white;
+
+  display: inline-block;
+}
+
+.btn:hover {
+  background: #eee;
+  opacity: 1;
+}
+.page3 {
+  z-index: 200;
+
+  position: static;
+
+  height: 100vh;
+  width: 100vw;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  scroll-snap-align: start;
+  z-index: 100;
+  overflow: hidden;
+}
+.container3 {
+  z-index: 200;
+  background-image: url(./img/aaa.jpeg);
+  margin-top: -100px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 784px;
+}
+.upperpart {
+  z-index: 200;
+  cursor: auto;
+  display: flex;
+  flex-basis: 100%;
+  height: 75%;
+}
+.devilicon2:p {
+  padding: 5px;
+  margin: 20px;
+  height: 25%;
+  z-index: 200;
+  color: black;
+  position: relative;
+  display: inherit;
+  float: left;
+}
+.logo3 {
+  z-index: 300;
+  margin-top: 110px;
+  position: fixed;
+
+  width: 120px;
+  height: 100px;
+  background: url(./img/tesla.svg);
+  background-repeat: no-repeat;
+  
+  margin-left: 45px;
+}

@@ -1,0 +1,68 @@
+
+.devilicon{
+
+    transition-delay: 0.2s;
+    /*filter:invert();*/
+    height: 100px;
+    width: 100vw;
+    padding:5px;
+    color: white;
+    margin-top: 350px;
+    margin-left:450px;
+    line-height: 30px;
+  
+}
+
+.speedometer{
+    background: url(./img/speedometer.svg);
+    background-repeat: no-repeat;
+    margin:auto;
+    background-size: cover;
+    width:50px;
+    height:25px;
+    filter:invert(100%);
+    position: absolute;
+   
+}
+.accel1{
+    color: white;
+    float:right;
+    position:absolute;
+    margin-left:50px;
+    display: block;
+
+}
+.accel2{
+    color: white;
+    float:right;
+    position:absolute;
+    margin-left:0px;
+}
+
+.distance {
+   
+    color: white;
+    position: relative;
+    margin-left:100px;
+    display: inline-block;
+    top:-30px;
+
+}
+.motor{
+    color: white;
+    position: relative;
+    margin-left:60px;
+    display: inline-block;
+    top:-30px;
+}
+.order{
+    color: white;
+    display: inline-block;
+    margin-left:50px;
+    position: relative;
+    top:-60px;
+    border-radius: 20px 20px;
+    padding:5px 20px 5px 20px;
+    border-color: white;
+    background: transparent;
+}
